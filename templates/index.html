@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1>Welcome to Flask App</h1>
+    <div class="card">
+        <h2>Interactive Counter</h2>
+        <p>Current count: <span id="counter">0</span></p>
+        <button onclick="incrementCounter()">Increment</button>
+        <button onclick="resetCounter()">Reset</button>
+    </div>
+</div>
+{% endblock %}
